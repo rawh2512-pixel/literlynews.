@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#073b78">
+<title>Jumat Bersih: Siswa SMKN 3 Lubuklinggau Lakukan Penghijauan</title>
+<style>
+:root {
+  --navy:#082f63; --blue:#0755a2; --sky:#eaf4ff; --ink:#17263b;
+  --muted:#60738c; --gold:#f4c542; --white:#fff;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0; color:var(--ink);
+  font-family:Arial, Helvetica, sans-serif;
+  background:linear-gradient(135deg,#06366e 0%,#0878bd 55%,#0b4a88 100%);
+  min-height:100vh; padding:28px 14px;
+}
+.page {
+  max-width:980px; margin:0 auto; background:#fff; border-radius:18px;
+  overflow:hidden; box-shadow:0 18px 55px rgba(0,0,0,.25);
+  position:relative;
+}
+.masthead {
+  background:linear-gradient(115deg,#062a59,#0758a4);
+  color:#fff; padding:24px 30px 20px; position:relative; overflow:hidden;
+}
+.masthead:after {
+  content:""; position:absolute; width:270px;height:270px;border:1px solid rgba(255,255,255,.13);
+  border-radius:50%; right:-65px;top:-135px; box-shadow:0 0 0 25px rgba(255,255,255,.035),0 0 0 55px rgba(255,255,255,.025);
+}
+.brand { display:flex; align-items:center; gap:14px; position:relative; z-index:1; }
+.brand img { width:66px;height:66px;object-fit:contain;background:#fff;border-radius:50%;padding:3px; }
+.brand-name { font-size:clamp(21px,4vw,30px);font-weight:900;letter-spacing:2px; }
+.brand-sub { font-size:11px;letter-spacing:2.4px;text-transform:uppercase;opacity:.82;margin-top:5px; }
+.topline { margin-top:19px;border-top:1px solid rgba(255,255,255,.25);padding-top:12px;
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:11px;letter-spacing:1.2px;text-transform:uppercase; }
+.content { padding:34px clamp(20px,5vw,58px) 40px; position:relative; }
+.watermark {
+  position:absolute; width:min(48%,360px); left:50%;top:48%;transform:translate(-50%,-50%);
+  opacity:.055; pointer-events:none; z-index:0;
+}
+.article { position:relative;z-index:1; }
+.kicker { color:var(--blue);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase; }
+h1 { color:#092f60;font-size:clamp(29px,5vw,46px);line-height:1.12;margin:13px 0 15px;letter-spacing:-1.2px; }
+.deck { color:#52677f;font-size:17px;line-height:1.65;max-width:780px;margin:0 0 22px; }
+.byline { display:flex;align-items:center;gap:10px;border-top:1px solid #dce6f0;border-bottom:1px solid #dce6f0;padding:13px 0;margin-bottom:24px;color:#51657c;font-size:12px; }
+.dot { width:5px;height:5px;background:var(--gold);border-radius:50%; }
+.hero { margin:0 0 25px; }
+.hero img { width:100%;max-height:490px;object-fit:cover;display:block;border-radius:12px; }
+figcaption { font-size:11px;color:#66788c;line-height:1.5;margin-top:8px; }
+p { font-size:15.5px;line-height:1.85;margin:0 0 17px;text-align:justify; }
+.lead:first-letter { float:left;font-size:52px;line-height:.85;padding:7px 9px 0 0;color:#0755a2;font-weight:800; }
+h2 { color:#0a3970;font-size:21px;margin:30px 0 13px;padding-left:13px;border-left:4px solid var(--gold); }
+.pullquote { margin:25px 0;padding:20px 22px;background:#eaf4ff;border-radius:10px;border-left:4px solid #0a62ad;color:#123c6d;font-size:18px;line-height:1.55;font-weight:700; }
+.gallery { display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0 10px; }
+.gallery figure { margin:0; }
+.gallery img { width:100%;height:240px;object-fit:cover;border-radius:10px;display:block; }
+.facts { background:rgba(231,243,255,.88);border:1px solid #cfe2f6;border-radius:12px;padding:18px 20px;margin:26px 0; }
+.facts h3 { margin:0 0 12px;color:#0a3970;font-size:15px;letter-spacing:.5px; }
+.facts ul { margin:0;padding-left:19px; }
+.facts li { margin:8px 0;font-size:13px;line-height:1.55; }
+.credits { margin-top:34px;background:#082f63;color:#fff;border-radius:12px;padding:22px 24px; }
+.credits h2 { color:#fff;border-color:var(--gold);margin:0 0 15px;font-size:19px; }
+.credit-grid { display:grid;grid-template-columns:1fr 1fr;gap:12px 24px; }
+.credit-item { border-bottom:1px solid rgba(255,255,255,.17);padding-bottom:9px; }
+.credit-label { color:#a9d3ff;font-size:10px;letter-spacing:1.3px;text-transform:uppercase;margin-bottom:5px; }
+.credit-name { font-size:13px;font-weight:700;line-height:1.5; }
+footer { background:#05244a;color:#b9d2ec;text-align:center;padding:14px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase; }
+@media(max-width:620px) {
+ body {padding:0;background:#082f63;}
+ .page {border-radius:0;}
+ .masthead {padding:20px;}
+ .content {padding:27px 19px 30px;}
+ .gallery {grid-template-columns:1fr;}
+ .gallery img {height:auto;max-height:340px;}
+ .credit-grid {grid-template-columns:1fr;}
+ p {font-size:15px;}
+}
+@media print {
+ body {background:#fff;padding:0;}
+ .page {box-shadow:none;border-radius:0;}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <div class="brand">
+      <img src="../assets/image-0.png" alt="Logo Perpustakaan SMKN 3 Lubuklinggau">
+      <div>
+        <div class="brand-name">LITERLY NEWS</div>
+        <div class="brand-sub">Redaksi Perpustakaan · SMKN 3 Lubuklinggau</div>
+      </div>
+    </div>
+    <div class="topline"><span>Berita Sekolah</span><span>Jumat, 20 November 2026</span></div>
+  </header>
+
+  <main class="content">
+    <img class="watermark" src="../assets/image-1.png" alt="">
+    <article class="article">
+      <div class="kicker">Lingkungan · Kegiatan Sekolah</div>
+      <h1>Jumat Bersih, Siswa SMKN 3 Lubuklinggau Lakukan Penanaman Tanaman Hias</h1>
+      <div class="deck">Melalui kegiatan Jumat Bersih, para siswa bersama guru menata dan menanam berbagai tanaman di depan ruang tamu sekolah sebagai upaya memperbanyak tanaman serta menciptakan lingkungan yang lebih asri dan segar.</div>
+      <div class="byline"><strong>Reporter: Raffid Mahendra</strong><span class="dot"></span><span>SMKN 3 Lubuklinggau</span><span class="dot"></span><span>20 November 2026</span></div>
+
+      <figure class="hero">
+        <img src="../assets/image-2.jpg" alt="Raffid Mahendra mewawancarai guru SMKN 3 Lubuklinggau">
+        <figcaption>Raffid Mahendra melakukan wawancara bersama Apriana Suzanti, S.Pd., terkait kegiatan Jumat Bersih dan penanaman tanaman di lingkungan sekolah.</figcaption>
+      </figure>
+
+      <p class="lead">Lubuklinggau — Suasana Jumat di SMKN 3 Lubuklinggau pada 20 November 2026 diisi dengan kegiatan Jumat Bersih. Dalam kegiatan tersebut, siswa dan siswi turut melakukan penanaman tanaman hias serta tanaman lainnya di area depan ruang tamu sekolah. Kegiatan ini menjadi salah satu upaya sekolah untuk memperbanyak tanaman dan menghadirkan lingkungan yang lebih hijau, asri, serta segar.</p>
+
+      <p>Berdasarkan hasil wawancara bersama Apriana Suzanti, S.Pd., kegiatan penanaman tersebut dilaksanakan dengan memanfaatkan polybag sebagai media tanam. Para siswa bekerja bersama menyiapkan tanah, menambahkan pupuk, menanam tumbuhan, hingga menyiram tanaman agar dapat tumbuh dengan baik.</p>
+
+      <h2>Kerja Sama Siswa Jadi Kunci Kegiatan</h2>
+      <p>Dalam pelaksanaannya, para siswa membagi tugas agar pekerjaan dapat diselesaikan dengan lebih cepat dan teratur. Ada siswa yang bertugas memasukkan tanah ke dalam polybag, menambahkan pupuk, menanam bibit atau tumbuhan, serta menyiram tanaman. Pembagian tugas ini membuat setiap peserta dapat berkontribusi sesuai pekerjaan yang diberikan.</p>
+
+      <div class="pullquote">“Kegiatan ini dilakukan untuk mengembangbiakkan tanaman yang ada serta melakukan penghijauan di beberapa lokasi di SMKN 3 Lubuklinggau agar lingkungan menjadi lebih asri dan segar.”</div>
+
+      <p>Menurut Apriana Suzanti, S.Pd., kegiatan ini merupakan usulan dari Kepala SMKN 3 Lubuklinggau, Suhar Jendro, S.Pd., M.Pd. Penanaman tidak hanya berfokus pada penataan area depan ruang tamu, tetapi juga menjadi bagian dari upaya penghijauan di beberapa lokasi sekolah.</p>
+
+      <div class="gallery">
+        <figure>
+          <img src="../assets/image-3.jpg" alt="Siswa menanam tanaman ke dalam polybag">
+          <figcaption>Siswa bekerja sama mengisi polybag dengan media tanam dan menanam berbagai tumbuhan.</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/image-4.jpg" alt="Kegiatan Jumat Bersih di halaman SMKN 3 Lubuklinggau">
+          <figcaption>Para siswa dan guru bergotong royong merapikan serta menghijaukan lingkungan sekolah.</figcaption>
+        </figure>
+      </div>
+
+      <h2>Membangun Lingkungan Sekolah yang Lebih Asri</h2>
+      <p>Kegiatan Jumat Bersih ini memperlihatkan pentingnya kepedulian terhadap lingkungan melalui tindakan sederhana yang dilakukan secara bersama-sama. Dengan pembagian tugas dan semangat gotong royong, proses penanaman dapat berlangsung lebih efektif.</p>
+
+      <p>Melalui kegiatan tersebut, diharapkan tanaman yang telah ditanam dapat tumbuh dan dirawat secara berkelanjutan. Lingkungan sekolah yang hijau dan tertata diharapkan mampu menciptakan suasana yang lebih nyaman bagi seluruh warga SMKN 3 Lubuklinggau.</p>
+
+      <section class="facts">
+        <h3>FAKTA KEGIATAN · 5W + 1H</h3>
+        <ul>
+          <li><strong>Apa:</strong> Jumat Bersih dan penanaman tanaman hias serta tanaman lainnya.</li>
+          <li><strong>Siapa:</strong> Siswa dan siswi SMKN 3 Lubuklinggau; kegiatan diusulkan oleh Kepala Sekolah, Suhar Jendro, S.Pd., M.Pd.</li>
+          <li><strong>Kapan:</strong> Jumat, 20 November 2026.</li>
+          <li><strong>Di mana:</strong> Area depan ruang tamu sekolah; tanaman ditanam menggunakan polybag.</li>
+          <li><strong>Mengapa:</strong> Untuk mengembangbiakkan tanaman dan melakukan penghijauan agar lingkungan sekolah lebih asri dan segar.</li>
+          <li><strong>Bagaimana:</strong> Siswa membagi tugas untuk mengisi tanah, menambahkan pupuk, menanam, dan menyiram tanaman.</li>
+        </ul>
+      </section>
+
+      <section class="credits">
+        <h2>Kredit Redaksi</h2>
+        <div class="credit-grid">
+          <div class="credit-item"><div class="credit-label">Editor Video</div><div class="credit-name">Raffid Mahendra · X RPL</div></div>
+          <div class="credit-item"><div class="credit-label">Web Editor</div><div class="credit-name">Raffid Mahendra · X RPL</div></div>
+          <div class="credit-item"><div class="credit-label">Cameraman</div><div class="credit-name">Vazel Al-Raffi Rizky Putra</div></div>
+          <div class="credit-item"><div class="credit-label">Pewawancara</div><div class="credit-name">Raffid Mahendra · X RPL</div></div>
+          <div class="credit-item"><div class="credit-label">Narasumber</div><div class="credit-name">Apriana Suzanti, S.Pd.</div></div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer>Literly News · Informasi, Inspirasi, dan Literasi Sekolah</footer>
+</div>
+</body>
+</html>
