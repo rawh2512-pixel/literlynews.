@@ -10,7 +10,7 @@
 .wave{animation:wave 2.4s linear infinite}
 .blink{animation:blink 1s step-end infinite}
 @keyframes blink{50%{opacity:0}}
-@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 @keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -18,8 +18,4 @@
 @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @keyframes wght{from{font-variation-settings:'ROND' 100,'wght' 400}to{font-variation-settings:'ROND' 100,'wght' 760}}
 @keyframes wave{from{transform:translateX(0)}to{transform:translateX(-48px)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}
-.wi{transform-box:fill-box;transform-origin:50% 100%;animation:wi .62s cubic-bezier(.34,1.56,.64,1) both;animation-delay:calc(var(--b,0s) + var(--w,0)*45ms)}
-@keyframes wi{0%{opacity:0;transform:translateY(9px) scale(.94);filter:blur(4px)}100%{opacity:1;transform:none;filter:blur(0)}}
-.cell rect{transition:fill .3s ease}
-</style><rect width="234.3" height="88" rx="32" fill="#f7f7ff"/></svg>
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}.ta,.wi{transform-box:fill-box}.ta{transform-origin:50% 70%;animation-duration:.72s;animation-timing-function:cubic-bezier(.16,1,.3,1);animation-fill-mode:both;animation-delay:var(--b,0s)}.wi{transform-origin:50% 100%;animation:wi .58s cubic-bezier(.34,1.56,.64,1) both;animation-delay:calc(var(--b,0s) + var(--w,0)*45ms)}@keyframes wi{0%{opacity:0;transform:translateY(14px) scale(.94)}100%{opacity:1;transform:none}}.ta-fade-up{animation-name:a-fade-up}@keyframes a-fade-up{0%{opacity:0;transform:translateY(20px)}100%{opacity:1;transform:none}}.ta-slide-right{animation-name:a-slide-right}@keyframes a-slide-right{0%{opacity:0;transform:translateX(-24px)}100%{opacity:1;transform:none}}.ta-float-in{animation-name:a-float-in}@keyframes a-float-in{0%{opacity:0;transform:translateY(14px) scale(.98)}100%{opacity:1;transform:none}}.ta-zoom-in{animation-name:a-zoom-in}@keyframes a-zoom-in{0%{opacity:0;transform:scale(.88)}100%{opacity:1;transform:none}}.ta-scale-up{animation-name:a-scale-up}@keyframes a-scale-up{0%{opacity:0;transform:scale(.92) translateY(8px)}100%{opacity:1;transform:none}}.ta-pop-in{animation-name:a-pop-in}@keyframes a-pop-in{0%{opacity:0;transform:scale(.75)}70%{opacity:1;transform:scale(1.04)}100%{opacity:1;transform:none}}.ta-bounce-in{animation-name:a-bounce-in}@keyframes a-bounce-in{0%{opacity:0;transform:translateY(-16px)}60%{opacity:1;transform:translateY(4px)}80%{transform:translateY(-2px)}100%{opacity:1;transform:none}}.ta-soft-focus{animation-name:a-soft-focus}@keyframes a-soft-focus{0%{opacity:0;transform:scale(1.05)}100%{opacity:1;transform:none}}.ta-wipe-left{animation-name:a-wipe-left}@keyframes a-wipe-left{0%{opacity:0;clip-path:inset(-6px 100% -6px -6px)}100%{opacity:1;clip-path:inset(-6px)}}.cell rect{transition:fill .3s ease}</style><rect width="234.3" height="88" rx="32" fill="#f7f7ff"/></svg>
