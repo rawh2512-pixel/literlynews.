@@ -1,0 +1,411 @@
+{
+  "petunjuk": {
+    "mode": [
+      "kata",
+      "baris",
+      "paragraf"
+    ],
+    "arah": [
+      "kiri",
+      "kanan",
+      "atas",
+      "bawah"
+    ],
+    "animasi": [
+      "mesin-tik",
+      "naik",
+      "geser",
+      "gabungkan",
+      "balok-lewat",
+      "meletup",
+      "bounce",
+      "bergulung",
+      "luncur",
+      "membentang",
+      "perjelas",
+      "terbit",
+      "geser-datar",
+      "pudar",
+      "timbul",
+      "usap",
+      "buram",
+      "berurutan",
+      "tarik-napas",
+      "terbit-kilat",
+      "hanyut",
+      "tektonik",
+      "terhuyung",
+      "neon",
+      "buku-kliping",
+      "hentak",
+      "putar",
+      "kedip",
+      "denyut",
+      "goyang"
+    ],
+    "satuan": "durasi, jeda, stagger, jedaAntar dalam detik; jarak dalam piksel; putar dalam derajat; arah adalah sisi asal teks"
+  },
+  "teks": [
+    {
+      "nama": "Judul situs paling atas (LITERLY NEWS)",
+      "selector": ".brand-name",
+      "animasi": "geser",
+      "mode": "kata",
+      "durasi": 0.6,
+      "jeda": 0,
+      "stagger": 0.07,
+      "arah": "kiri",
+      "jarak": 40
+    },
+    {
+      "nama": "Sub judul situs",
+      "selector": ".brand-sub",
+      "animasi": "naik",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0.25,
+      "arah": "bawah",
+      "jarak": 16
+    },
+    {
+      "nama": "Teks kecil di atas (Berita Sekolah)",
+      "selector": ".topline > span:first-child",
+      "animasi": "geser",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0.1,
+      "arah": "kiri",
+      "jarak": 30
+    },
+    {
+      "nama": "Widget jam",
+      "selector": ".clock-widget",
+      "animasi": "hanyut",
+      "mode": "paragraf",
+      "jeda": 0.2,
+      "arah": "kanan",
+      "jarak": 50
+    },
+    {
+      "nama": "Menu navigasi",
+      "selector": ".main-nav a",
+      "animasi": "naik",
+      "mode": "paragraf",
+      "durasi": 0.5,
+      "jeda": 0.15,
+      "arah": "bawah",
+      "jarak": 14,
+      "jedaAntar": 0.07
+    },
+    {
+      "nama": "Tombol kembali",
+      "selector": ".back-home",
+      "animasi": "geser",
+      "mode": "paragraf",
+      "durasi": 0.5,
+      "jeda": 0,
+      "arah": "kiri",
+      "jarak": 24
+    },
+    {
+      "nama": "Judul halaman artikel",
+      "selector": "h1",
+      "animasi": "naik",
+      "mode": "kata",
+      "durasi": 0.7,
+      "jeda": 0,
+      "stagger": 0.06,
+      "arah": "bawah",
+      "jarak": 28
+    },
+    {
+      "nama": "Judul bagian di artikel kredit",
+      "selector": ".credits h2",
+      "animasi": "naik",
+      "mode": "kata",
+      "durasi": 0.6,
+      "jeda": 0,
+      "stagger": 0.06,
+      "arah": "bawah",
+      "jarak": 24
+    },
+    {
+      "nama": "Judul bagian di artikel",
+      "selector": ".article h2",
+      "animasi": "geser",
+      "mode": "baris",
+      "durasi": 0.6,
+      "jeda": 0,
+      "stagger": 0.08,
+      "arah": "kiri",
+      "jarak": 32
+    },
+    {
+      "nama": "Judul bagian halaman",
+      "selector": ".section-title h2",
+      "animasi": "naik",
+      "mode": "kata",
+      "durasi": 0.6,
+      "jeda": 0,
+      "stagger": 0.06,
+      "arah": "bawah",
+      "jarak": 24
+    },
+    {
+      "nama": "Anak judul bagian",
+      "selector": ".section-title span",
+      "animasi": "pudar",
+      "mode": "paragraf",
+      "durasi": 0.7,
+      "jeda": 0.2
+    },
+    {
+      "nama": "Kicker kartu berita",
+      "selector": ".news-card-kicker",
+      "animasi": "neon",
+      "mode": "paragraf",
+      "durasi": 1.0,
+      "jeda": 0
+    },
+    {
+      "nama": "Judul kartu berita",
+      "selector": ".news-card-title",
+      "animasi": "naik",
+      "mode": "kata",
+      "durasi": 0.6,
+      "jeda": 0,
+      "stagger": 0.04,
+      "arah": "bawah",
+      "jarak": 22
+    },
+    {
+      "nama": "Ringkasan kartu berita",
+      "selector": ".news-card-summary",
+      "animasi": "naik",
+      "mode": "baris",
+      "durasi": 0.6,
+      "jeda": 0,
+      "stagger": 0.07,
+      "arah": "bawah",
+      "jarak": 18
+    },
+    {
+      "nama": "Info reporter dan tanggal kartu",
+      "selector": ".news-card-meta span:not(.dot)",
+      "animasi": "pudar",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0
+    },
+    {
+      "nama": "Judul kotak redaksi",
+      "selector": ".facts h3",
+      "animasi": "usap",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0,
+      "arah": "kiri"
+    },
+    {
+      "nama": "Poin kotak redaksi",
+      "selector": ".facts li",
+      "animasi": "terbit-kilat",
+      "mode": "paragraf",
+      "durasi": 0.45,
+      "jeda": 0,
+      "arah": "bawah",
+      "jarak": 24
+    },
+    {
+      "nama": "Teks kosong",
+      "selector": ".empty-state",
+      "animasi": "pudar",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0
+    },
+    {
+      "nama": "Kicker artikel",
+      "selector": ".kicker",
+      "animasi": "usap",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0,
+      "arah": "kiri"
+    },
+    {
+      "nama": "Deck artikel",
+      "selector": ".deck",
+      "animasi": "buram",
+      "mode": "baris",
+      "durasi": 0.8,
+      "jeda": 0.1,
+      "stagger": 0.09
+    },
+    {
+      "nama": "Reporter",
+      "selector": ".byline strong",
+      "animasi": "naik",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0,
+      "arah": "bawah",
+      "jarak": 16
+    },
+    {
+      "nama": "Lokasi dan tanggal",
+      "selector": ".byline > span:not(.dot)",
+      "animasi": "geser-datar",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0,
+      "arah": "kiri",
+      "jarak": 36
+    },
+    {
+      "nama": "Keterangan foto utama",
+      "selector": ".hero figcaption",
+      "animasi": "perjelas",
+      "mode": "baris",
+      "durasi": 0.8,
+      "jeda": 0,
+      "stagger": 0.09
+    },
+    {
+      "nama": "Paragraf artikel",
+      "selector": ".article > p",
+      "animasi": "naik",
+      "mode": "baris",
+      "durasi": 0.65,
+      "jeda": 0,
+      "stagger": 0.07,
+      "arah": "bawah",
+      "jarak": 20
+    },
+    {
+      "nama": "Kutipan",
+      "selector": ".pullquote",
+      "animasi": "meletup",
+      "mode": "kata",
+      "durasi": 0.5,
+      "jeda": 0,
+      "stagger": 0.05
+    },
+    {
+      "nama": "Keterangan galeri",
+      "selector": ".gallery figcaption",
+      "animasi": "usap",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0,
+      "arah": "kiri"
+    },
+    {
+      "nama": "Label kredit",
+      "selector": ".credit-label",
+      "animasi": "balok-lewat",
+      "mode": "paragraf",
+      "durasi": 0.8,
+      "jeda": 0,
+      "arah": "kiri"
+    },
+    {
+      "nama": "Nama kredit",
+      "selector": ".credit-name",
+      "animasi": "naik",
+      "mode": "paragraf",
+      "durasi": 0.6,
+      "jeda": 0,
+      "arah": "bawah",
+      "jarak": 16
+    },
+    {
+      "nama": "Nama profil",
+      "selector": ".profile-name",
+      "animasi": "hentak",
+      "mode": "kata",
+      "durasi": 0.5,
+      "jeda": 0,
+      "stagger": 0.08
+    },
+    {
+      "nama": "Peran profil",
+      "selector": ".profile-role",
+      "animasi": "kedip",
+      "mode": "paragraf",
+      "durasi": 0.8,
+      "jeda": 0
+    },
+    {
+      "nama": "Bio profil",
+      "selector": ".profile-bio",
+      "animasi": "perjelas",
+      "mode": "baris",
+      "durasi": 0.8,
+      "jeda": 0,
+      "stagger": 0.09
+    },
+    {
+      "nama": "Footer",
+      "selector": "footer",
+      "animasi": "pudar",
+      "mode": "paragraf",
+      "durasi": 0.8,
+      "jeda": 0
+    }
+  ],
+  "svg": {
+    "bawaan": {
+      "judul": {
+        "animasi": "naik",
+        "mode": "kata",
+        "durasi": 0.6,
+        "jeda": 0.08,
+        "stagger": 0.06,
+        "arah": "bawah",
+        "jarak": 20
+      },
+      "isi": {
+        "animasi": "naik",
+        "mode": "baris",
+        "durasi": 0.6,
+        "jeda": 0.4,
+        "stagger": 0.12,
+        "arah": "bawah",
+        "jarak": 20
+      }
+    },
+    "file": {
+      "hero-light.svg": {
+        "judul": {
+          "animasi": "geser",
+          "mode": "kata",
+          "arah": "kiri",
+          "jarak": 40,
+          "stagger": 0.1
+        }
+      },
+      "about-light.svg": {
+        "judul": {
+          "animasi": "geser",
+          "mode": "kata",
+          "arah": "kiri",
+          "jarak": 30
+        },
+        "isi": {
+          "animasi": "usap",
+          "mode": "baris",
+          "arah": "kiri"
+        }
+      },
+      "stack-light.svg": {
+        "isi": {
+          "animasi": "usap",
+          "mode": "baris",
+          "arah": "kiri",
+          "stagger": 0.08
+        }
+      }
+    }
+  }
+}
