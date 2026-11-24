@@ -1,0 +1,181 @@
+[
+  {
+    "id": "artikel-jumat-bersih",
+    "animasi": {
+      "kartu_judul": {
+        "animasi": "naik",
+        "mode": "kata",
+        "durasi": 0.6,
+        "stagger": 0.05
+      },
+      "kicker": {
+        "animasi": "balok-lewat",
+        "arah": "kiri",
+        "durasi": 0.8
+      },
+      "judul": {
+        "animasi": "geser",
+        "mode": "kata",
+        "arah": "kanan",
+        "jarak": 40,
+        "durasi": 0.6,
+        "stagger": 0.08
+      },
+      "deck": {
+        "animasi": "perjelas",
+        "mode": "baris",
+        "durasi": 0.8,
+        "stagger": 0.09
+      },
+      "paragraf": {
+        "animasi": "naik",
+        "mode": "baris",
+        "arah": "bawah",
+        "jarak": 20,
+        "durasi": 0.65,
+        "stagger": 0.07
+      },
+      "kutipan": {
+        "animasi": "meletup",
+        "mode": "kata",
+        "stagger": 0.05
+      }
+    },
+    "kicker": "Lingkungan · Kegiatan Sekolah",
+    "judul": "Jumat Bersih, Siswa SMKN 3 Lubuklinggau Tanam Tanaman Hias",
+    "ringkasan": "Pagi itu polybag, tanah, dan pupuk berpindah dari tangan ke tangan. Bedanya Jumat Bersih kali ini? Usul langsung dari Kepala Sekolah. Apa yang sebenarnya mau dicapai dengan penanaman di depan ruang tamu?",
+    "thumbnail": "assets/jumat-pembersihan/galeri-1.webp",
+    "thumbnailAlt": "Siswa SMKN 3 Lubuklinggau menanam tanaman hias saat Jumat Bersih",
+    "reporter": "Raffid Mahendra",
+    "lokasi": "SMKN 3 Lubuklinggau",
+    "tanggal": "20 November 2026",
+    "deck": "Lewat Jumat Bersih, siswa bersama guru menata dan menanam berbagai tanaman di depan ruang tamu sekolah. Tujuannya sederhana: menambah hijau dan membuat lingkungan lebih asri.",
+    "hero": {
+      "src": "assets/jumat-pembersihan/wawancara.webp",
+      "alt": "Raffid Mahendra mewawancarai guru SMKN 3 Lubuklinggau",
+      "caption": "Raffid Mahendra mewawancarai Apriana Suzanti, S.Pd., soal kegiatan Jumat Bersih dan penanaman tanaman di sekolah."
+    },
+    "konten": [
+      {
+        "tipe": "paragraf",
+        "gaya": "lead",
+        "teks": "Lubuklinggau — Jumat, 20 November 2026, SMKN 3 Lubuklinggau menggelar Jumat Bersih. Selain membersihkan area sekolah, siswa dan siswi juga menanam tanaman hias di depan ruang tamu. Kegiatan ini jadi salah satu cara sekolah menambah tanaman dan membuat halaman lebih hijau serta nyaman."
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Dari wawancara dengan Apriana Suzanti, S.Pd., penanaman dilakukan memakai polybag. Siswa bekerja bersama: menyiapkan tanah, menaruh pupuk, menanam, lalu menyiram agar tanaman bisa tumbuh baik."
+      },
+      {
+        "tipe": "judul",
+        "teks": "Kerja Sama Siswa Jadi Kunci"
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Supaya cepat dan rapi, siswa membagi tugas. Ada yang mengisi tanah ke polybag, ada yang menambahkan pupuk, menanam bibit, dan menyiram. Setiap orang punya peran, jadi semuanya ikut bergerak."
+      },
+      {
+        "tipe": "kutipan",
+        "teks": "“Kegiatan ini dilakukan untuk mengembangbiakkan tanaman yang ada serta melakukan penghijauan di beberapa lokasi di SMKN 3 Lubuklinggau agar lingkungan menjadi lebih asri dan segar.”"
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Menurut Apriana Suzanti, S.Pd., ide ini datang dari Kepala SMKN 3 Lubuklinggau, Suhar Jendro, S.Pd., M.Pd. Penanaman tidak cuma di depan ruang tamu, tapi juga bagian dari upaya penghijauan di beberapa titik sekolah."
+      },
+      {
+        "tipe": "galeri",
+        "id": "galeri-jumat-bersih",
+        "gambar": [
+          {
+            "src": "assets/jumat-pembersihan/galeri-1.webp",
+            "alt": "Siswa menanam tanaman ke dalam polybag",
+            "caption": "Siswa mengisi polybag dengan media tanam dan menanam tumbuhan."
+          },
+          {
+            "src": "assets/jumat-pembersihan/galeri-2.webp",
+            "alt": "Kegiatan Jumat Bersih di halaman SMKN 3 Lubuklinggau",
+            "caption": "Siswa dan guru bergotong royong merapikan serta menghijaukan lingkungan sekolah."
+          }
+        ]
+      },
+      {
+        "tipe": "judul",
+        "teks": "Lingkungan Sekolah yang Lebih Asri"
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Jumat Bersih kali ini menunjukkan bahwa kepedulian terhadap lingkungan bisa dimulai dari hal kecil yang dikerjakan bersama. Dengan pembagian tugas dan semangat gotong royong, proses penanaman berjalan lebih efektif."
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Harapannya, tanaman yang sudah ditanam terus dirawat. Lingkungan sekolah yang hijau dan tertata bisa membuat suasana lebih nyaman bagi seluruh warga SMKN 3 Lubuklinggau."
+      }
+    ],
+    "fakta": {
+      "id": "tentang-jumat-bersih",
+      "judul": "FAKTA KEGIATAN · 5W + 1H",
+      "poin": [
+        {
+          "label": "Apa",
+          "teks": "Jumat Bersih dan penanaman tanaman hias serta tanaman lainnya."
+        },
+        {
+          "label": "Siapa",
+          "teks": "Siswa dan siswi SMKN 3 Lubuklinggau; diusulkan oleh Kepala Sekolah, Suhar Jendro, S.Pd., M.Pd."
+        },
+        {
+          "label": "Kapan",
+          "teks": "Jumat, 20 November 2026."
+        },
+        {
+          "label": "Di mana",
+          "teks": "Area depan ruang tamu sekolah; tanaman ditanam memakai polybag."
+        },
+        {
+          "label": "Mengapa",
+          "teks": "Mengembangbiakkan tanaman dan melakukan penghijauan agar lingkungan sekolah lebih asri dan segar."
+        },
+        {
+          "label": "Bagaimana",
+          "teks": "Siswa membagi tugas mengisi tanah, menambahkan pupuk, menanam, dan menyiram."
+        }
+      ]
+    },
+    "kredit": {
+      "id": "kredit-jumat-bersih",
+      "judul": "Kredit Redaksi",
+      "daftar": [
+        {
+          "label": "Editor Video",
+          "nama": [
+            "Raffid Mahendra · X RPL"
+          ]
+        },
+        {
+          "label": "Web Editor",
+          "nama": [
+            "Raffid Mahendra · X RPL",
+            "Raihan Kanz Akbar Riyanto · X RPL"
+          ]
+        },
+        {
+          "label": "Cameraman",
+          "nama": [
+            "Vazel Al-Raffi Rizky Putra"
+          ]
+        },
+        {
+          "label": "Pewawancara",
+          "nama": [
+            "Raffid Mahendra · X RPL"
+          ]
+        },
+        {
+          "label": "Narasumber",
+          "nama": [
+            "Apriana Suzanti, S.Pd."
+          ]
+        }
+      ]
+    }
+  }
+]
